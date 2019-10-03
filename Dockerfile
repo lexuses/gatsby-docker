@@ -9,9 +9,8 @@ RUN yarn install
 WORKDIR /var/www
 
 COPY package.json /var/www/package.json
-COPY yarn.lock /var/www/yarn.lock
 COPY entrypoint.sh /usr/local/bin/
 
 ENTRYPOINT ["sh", "/usr/local/bin/entrypoint.sh"]
 
-CMD ["yarn", "build"]
+CMD "yarn"

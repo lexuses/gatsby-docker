@@ -1,0 +1,8 @@
+{
+  "name": "gatsby-docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lexuses/gatsby-docker.git",
+  "author": "Alexey Khrulev <lexuses@gmail.com>",
+  "license": "MIT"
+}
